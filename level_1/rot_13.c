@@ -10,18 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <io.h>
 
 int	main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
-		int		rotate = 13;
-		int		n = 0;
+		int		rotate = 13, n = 0;
 		char	c;
 
-		if (rotate < 0)
-			rotate += 26;
 		while (argv[1][n])
 		{
 			c = argv[1][n];
