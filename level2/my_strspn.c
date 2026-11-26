@@ -1,27 +1,24 @@
-// Returns the length of the string given as argument
-// If there is one char from the second string, it stops
-// If the string is NULL, it returns 0
+// Counts the length of the first segment of the string given as argument
+// that consists entirely of characters from the second string
+// If there isn't any char from the second string, it stops
 
 #include <stdlib.h>
 
-size_t	my_strcspn(const char *s, const char *reject)
+size_t	my_strspn(const char *s, const char *accept)
 {
-	size_t n = 0, j = 0;
+    size_t n = 0, j = 0;
 	while (s[n])
 	{
 		j = 0;
-		while (reject[j])
-		{
-			if (s[n] == reject[j]) return n;
-			j++;
-		}
+		while (accept[j] && s[n] != accept[j]) j++;
+		if (!accept[j]) return n;
 		n++;
 	}
 	return n;
 }
 
-// #import <stdio.h>
-// int main(void)
-// {
-// 	return (printf("%zu\n", my_strcspn("Hola, mundo!", ",! ")), 0);
-// }
+#include <stdio.h>
+int main(void)
+{
+    return (printf("%zu\n", my_strspn("Hola, mundo!", "Hlo")), 0);
+}

@@ -1,5 +1,8 @@
 // Searches in the first string passed as argument
 // If theres is any coincidence betewn both strings returns the pointer
+// to the first occurrence of the character in the first string
+// If the string is NULL, it returns NULL
+// If there is no coincidence, it returns NULL
 
 #include <stdlib.h> // for NULL
 
