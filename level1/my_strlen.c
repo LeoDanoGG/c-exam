@@ -9,9 +9,9 @@ int	my_strlen(char *str)
 	return n;
 }
 
-int	main(void)
-{
-	char *str = "Hello, World!";
-	printf("Length of '%s' is: %d\n", str, my_strlen(str));
-	return (0);
-}
+// int	main(void)
+// {
+// 	char *str = "Hello, World!";
+// 	printf("Length of '%s' is: %d\n", str, my_strlen(str));
+// 	return (0);
+// }

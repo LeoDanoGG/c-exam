@@ -1,5 +1,5 @@
 // Swaps the case of each letter in the string given as argument
-// If the number of arguments is not 2, it prints only a newline
+// If the number of arguments is not 1, it prints only a newline
 
 #include <unistd.h> // <io.h> in Windows OS
 

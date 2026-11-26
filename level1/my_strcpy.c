@@ -16,12 +16,12 @@ char    *my_strcpy(char *s1, char *s2)
 	return s2;
 }
 
-int	main(void)
-{
-	char s1[] = "Hello, World!";
-	char s2[50];
+// int	main(void)
+// {
+// 	char s1[] = "Hello, World!";
+// 	char s2[50];
 
-	my_strcpy(s1, s2);
-	printf("Copied string: %s\n", s2);
-	return (0);
-}
+// 	my_strcpy(s1, s2);
+// 	printf("Copied string: %s\n", s2);
+// 	return (0);
+// }

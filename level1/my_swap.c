@@ -9,12 +9,12 @@ void	my_swap(int *a, int *b)
 	*b = c;
 }
 
-int	main(void)
-{
-	int a = 5, b = 10;
+// int	main(void)
+// {
+// 	int a = 5, b = 10;
 
-	printf("Before swap: a = %d, b = %d\n", a, b);
-	my_swap(&a, &b);
-	printf("After swap: a = %d, b = %d\n", a, b);
-	return (0);
-}
+// 	printf("Before swap: a = %d, b = %d\n", a, b);
+// 	my_swap(&a, &b);
+// 	printf("After swap: a = %d, b = %d\n", a, b);
+// 	return (0);
+// }

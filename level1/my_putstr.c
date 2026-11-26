@@ -14,9 +14,9 @@ void	my_putstr(char *str)
 	}
 }
 
-int	main(void)
-{
-	my_putstr("Hello, World!");
-	write(1, "\n", 1);
-	return (0);
-}
+// int	main(void)
+// {
+// 	my_putstr("Hello, World!");
+// 	write(1, "\n", 1);
+// 	return (0);
+// }

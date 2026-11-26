@@ -1,6 +1,6 @@
 // Prints the first word of the string given as argument, followed by a newline
 // The argument may contain leading spaces
-// If the number of arguments is not 2, it prints only a newline
+// If the number of arguments is not 1, it prints only a newline
 
 #include <unistd.h> // <io.h> in Windows OS
 

@@ -1,6 +1,6 @@
 // Shifts each letter in the string given as argument by one position in the alphabet
 // If the letter is 'z' or 'Z', it wraps around to 'a' or 'A'
-// If the number of arguments is not 2, it prints only a newline
+// If the number of arguments is not 1, it prints only a newline
 
 #include <unistd.h> // <io.h> in Windows OS
 

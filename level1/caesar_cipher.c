@@ -1,11 +1,11 @@
 // Shifts each letter in the string given as argument by a number of positions in the alphabet
 // The number of positions is given as the second argument
 // If the letter is 'z' or 'Z', it wraps around to 'a' or 'A'
-// If the number of arguments is not 3, it prints only a newline
+// If the number of arguments is not 2, it prints only a newline
 
 #include <unistd.h> // <io.h> in Windows OS
 
-int	my_atoi(char *str)
+static int	my_atoi(char *str)
 {
 	int	n = 0, sign = 1;
 	if (*str == '+') str++;

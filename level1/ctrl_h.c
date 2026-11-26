@@ -1,6 +1,6 @@
 // Replaces all occurrences of a character in a string with another character
 // If the character to be replaced is not found, it prints the original string
-// If the number of arguments is not 4, it prints only a newline
+// If the number of arguments is not 3, it prints only a newline
 
 #include <unistd.h> // <io.h> in Windows OS
 
