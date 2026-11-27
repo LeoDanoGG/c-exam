@@ -17,8 +17,8 @@ size_t	my_strspn(const char *s, const char *accept)
 	return n;
 }
 
-#include <stdio.h>
-int main(void)
-{
-    return (printf("%zu\n", my_strspn("Hola, mundo!", "Hlo")), 0);
-}
+// #include <stdio.h>
+// int main(void)
+// {
+//     return (printf("%zu\n", my_strspn("Hola, mundo!", "Hlo")), 0);
+// }

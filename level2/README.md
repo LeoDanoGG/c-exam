@@ -12,10 +12,10 @@
 | [`my_strdup`](my_strdup.c) | Duplicates the `string` passed as argument in the function call. |
 | [`my_strpbrk`](my_strpbrk.c) | Searches in the first `string` passed as argumment if theres is any coincidence betewn the second argument. |
 | [`my_strrev`](my_strrev.c) | Reverse a string in place, swaping the characters (`str[0]` <=> `str[n-1]`). |
-| [`coincidences`](coincidences.c) | . |
-| [``](.c) | . |
-| [``](.c) | . |
-| [``](.c) | . |
+| [`coincidences`](coincidences.c) | Prints the `chars` thar are in both `strings` passed as arguments to the console in the order that apears in the first `string`. |
+| [`is_power_of_2`](is_power_of_2.c) | Checks if the argument is a power of 2 . |
+| [`last_word`](last_word.c) | Prints the last word of the `string` passed as argument to the console. |
+| [`max_in_array`](max_in_array.c) | Searhes in an integer array (`int[]`) the highest value. |
 | [``](.c) | . |
 | [``](.c) | . |
 | [``](.c) | . |

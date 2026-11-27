@@ -4,7 +4,6 @@
 // To divide, use \/ as an argument or enclose in quotes "/"
 // If the number of arguments is not 3, it prints only a newline
 
-
 #include <unistd.h> // <io.h> in Windows OS
 
 static int	my_atoi(char *str)
